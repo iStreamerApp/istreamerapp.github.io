@@ -5,10 +5,11 @@
 <html>
    <head>
 		<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5993466dea00a30012ce6949&product=inline-share-buttons"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
    </head>
    
-   
    <body lang="RU" link="#0563C1" vlink="#954F72" style="background-color: #272727; font-family: Helvetica, Arial, sans-serif; font-size: 14px;">
+   
       <div style="text-align: center;">
          <table align="center" border="0" cellspacing="0" cellpadding="0" style="border: none;">
             <tbody>
@@ -63,9 +64,7 @@
 			   <!-- filters -->
                <tr style="height: 141.15pt;">
                   <td colspan="3" valign="top" style="height: 141.15pt; width: 436pt; padding: 0cm 5.4pt; text-align: left;">
-                     <p style="margin: 0cm -5.4pt 0.0001pt 0cm; text-align: right;">
-                        <img alt="" width="567" height="319" src="images/filters.jpg" />
-                     </p>
+						<a href="images/filters-full.jpg" width="567" height="319" data-fancybox data-caption="filters"><img src="images/filters.jpg"></a>
                   </td>
                   <td colspan="2" valign="top" style="height: 141.15pt; width: 229.85pt; padding: 0cm 5.4pt; text-align: left;">
                      <p style="margin: 0cm -2.5pt 0.0001pt 8.8pt;">
@@ -106,11 +105,7 @@
                      </p>
                   </td>
                   <td colspan="3" valign="top" style="height: 5cm; width: 318.95pt; padding: 0cm 5.4pt; text-align: left;">
-                     <p style="margin-bottom: 0.0001pt;">
-                        <span style="font-size: 16pt; font-family: 'Calibri Light', sans-serif; color: white;">
-                        <img alt="" width="567" height="319" src="images/color_adjust.jpg" />
-                        </span>
-                     </p>
+						<a href="images/color_adjust-full.jpg" width="567" height="319" data-fancybox data-caption="color adjust"><img src="images/color_adjust.jpg"></a>
                   </td>
                </tr>
 			   
@@ -127,11 +122,7 @@
 			   <!-- overlay -->
                <tr style="height: 190.15pt;">
                   <td colspan="3" valign="top" style="height: 190.15pt; width: 436pt; padding: 0cm 5.4pt; text-align: left;">
-                     <p style="margin: 0cm -5.4pt 0.0001pt 0cm; text-align: right;">
-                        <span style="font-size: 16pt; font-family: 'Calibri Light', sans-serif; color: white;">
-                        <img alt="" width="567" height="319" src="images/overlay.jpg" />
-                        </span>
-                     </p>
+						<a href="images/overlay-full.jpg" width="567" height="319" data-fancybox data-caption="overlay"><img src="images/overlay.jpg"></a>
                   </td>
                   <td colspan="2" valign="top" style="height: 190.15pt; width: 229.85pt; padding: 0cm 5.4pt; text-align: left;">
                      <p style="margin: 0cm -2.5pt 0.0001pt 15.9pt;">
@@ -172,11 +163,7 @@
                      </p>
                   </td>
                   <td colspan="3" valign="top" style="height: 105.6pt; width: 318.95pt; padding: 0cm 5.4pt; text-align: left;">
-                     <p style="margin-bottom: 0.0001pt;">
-                        <span style="font-size: 16pt; font-family: 'Calibri Light', sans-serif; color: white;">
-                        <img alt="" width="567" height="319" src="images/chromakey.jpg" />
-                        </span>
-                     </p>
+						<a href="images/chromakey-full.jpg" width="567" height="319" data-fancybox data-caption="chromakey"><img src="images/chromakey.jpg"></a>
                   </td>
                </tr>
 			   
@@ -193,11 +180,7 @@
 			   <!-- q_web -->
                <tr style="height: 105.6pt;">
                   <td colspan="4" valign="top" style="height: 105.6pt; width: 439.8pt; padding: 0cm 5.4pt; text-align: left;">
-                     <p style="margin: 0cm -1.9pt 0.0001pt 0cm; text-align: right;">
-                        <span style="font-size: 36pt; font-family: 'Calibri Light', sans-serif; color: white;">
-                        <img alt="" width="567" height="319" src="images/q_web.jpg" />
-                        </span>
-                     </p>
+						<a href="images/q_web-full.jpg" width="567" height="319" data-fancybox data-caption="quick_web"><img src="images/q_web.jpg"></a>
                   </td>
                   <td valign="top" style="height: 105.6pt; width: 226.05pt; padding: 0cm 5.4pt; text-align: left;">
                      <p style="margin: 0cm -5.4pt 0.0001pt 22.55pt;">
@@ -238,11 +221,7 @@
                      </p>
                   </td>
                   <td colspan="3" valign="top" style="height: 105.6pt; width: 318.95pt; padding: 0cm 5.4pt; text-align: left;">
-                     <p style="margin: 0cm -5pt 0.0001pt 0cm;">
-                        <span style="font-size: 36pt; font-family: 'Calibri Light', sans-serif; color: white;">
-                        <img alt="" width="567" height="319" src="images/twitch.jpg" />
-                        </span>
-                     </p>
+						<a href="images/twitch-full.jpg" width="567" height="319" data-fancybox data-caption="quick_web"><img src="images/twitch.jpg"></a>
                   </td>
                </tr>
 			   
@@ -542,5 +521,38 @@
             </tbody>
          </table>
       </div>
+	 
+	 <!-- image zoom -->
+	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+	
+	
+	<script>
+	
+	$("[data-fancybox]").fancybox({
+	
+		// Enable keyboard navigation
+		keyboard : true,
+
+		// Should display navigation arrows at the screen edges
+		arrows : true,
+
+		// Should display infobar (counter and arrows at the top)
+		infobar : false,
+
+		// Should display toolbar (buttons at the top)
+		toolbar : true,
+
+		// What buttons should appear in the top right corner.
+		// Buttons will be created using templates from `btnTpl` option
+		// and they will be placed into toolbar (class="fancybox-toolbar"` element)
+		buttons : [
+			'fullScreen',
+			'close'
+		]
+	
+	});
+	</script>
+
    </body>
 </html>
